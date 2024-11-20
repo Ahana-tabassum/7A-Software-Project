@@ -1,0 +1,83 @@
+/* Resetting default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.9), rgba(144, 238, 144, 0.7));
+}
+
+/* Header styles */
+header {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Main input area styles */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.license-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+}
